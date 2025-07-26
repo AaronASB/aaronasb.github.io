@@ -1,0 +1,139 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Name section container */
+.name-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #003366;
+  margin-bottom: 10px;
+  border: 3px solid blue;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Subtitle under name */
+.subtitle {
+  font-size: 1.1rem;
+  color: red;
+  padding: 6px 16px;
+  margin: 0 auto;
+  border-radius: 6px;
+  opacity: 0.8;
+  background-color: blue;
+  text-align: center;
+  width: 50%;
+}
+
+/* Navigation bar */
+nav {
+  background-color: rgba(0, 51, 102, 0.8);
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 40px;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* List styling */
+ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+/* Resume section */
+#Resume a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #003366;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#Resume a:hover {
+  background-color: #0055aa;
+}
+
+/* Image and figure */
+figure {
+  text-align: center;
+  margin-top: 50px;
+}
+
+figure img {
+  width: 220px;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 8px;
+  color: #444;
+}
